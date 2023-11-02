@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgwka"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="192px"
+            android:layout_height="214px"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="298px"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300px"
+            android:layout_height="59px"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:text="Умный дом"
+            android:textColor="@color/white"
+            android:textSize="48px"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="70px"
+        android:background="@drawable/rect"
+        android:backgroundTint="@color/bgnum"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="72px"
+            android:layout_marginRight="72px"
+            android:ems="10"
+            android:hint="Имя пользователя"
+            android:inputType="text"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/emailEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="72px"
+            android:layout_marginRight="72px"
+            android:ems="10"
+            android:hint="Электронная почта"
+            android:inputType="text"
+            android:textColor="@color/brown" />
+
+        <EditText
+            android:id="@+id/passwordEditText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="72px"
+            android:layout_marginRight="72px"
+            android:ems="10"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:textColor="@color/brown" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/loginButton1"
+        android:layout_width="550px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="150px"
+        android:background="@drawable/btn_style"
+        android:backgroundTintMode="add"
+        android:text="Регистрация"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:onClick="onClickGoReg"/>
+
+    <Button
+        android:id="@+id/registerButton1"
+        android:layout_width="550px"
+        android:layout_gravity="center"
+        android:layout_height="100px"
+        android:layout_marginTop="100px"
+        android:text="Войти"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_style2"
+        android:onClick="onClickGoIn"/>
+</LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="600px"
+        android:orientation="vertical"
+        android:background="@color/nig">
+
+
+        <LinearLayout
+            android:layout_width="1079px"
+            android:layout_height="200px"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_gravity="center"
+                android:background="@drawable/back"
+                android:layout_marginLeft="50px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Профиль"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="70px"
+                android:layout_marginLeft="220px"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="1079px"
+            android:layout_height="400px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="310px"
+                android:layout_height="310px"
+                android:background="@drawable/avatar"
+                android:layout_gravity="center"
+                android:layout_marginLeft="380px"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="47px"
+        android:text="Имя пользователя"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"/>
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="900px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Имя пользователя" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="40px"
+        android:text="Электронная почта"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="900px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Электронная почта" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="47px"
+        android:text="Адрес"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"/>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="900px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Адрес" />
+
+    <Button
+        android:layout_width="420px"
+        android:layout_height="120px"
+        android:layout_gravity="center"
+        android:layout_marginTop="300px"
+        android:text="Сохранить"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_style3"/>
+
+    <Button
+        android:layout_width="420px"
+        android:layout_height="120px"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:text="Выйти"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_style4"/>
+
+</LinearLayout>

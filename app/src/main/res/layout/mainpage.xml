@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="250px"
+        android:orientation="horizontal"
+        android:background="@color/nig">
+
+        <LinearLayout
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Твой дом"
+                android:textSize="48px"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="40px"
+                android:layout_marginLeft="40px"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Адрес"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="40px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Комнаты"
+                android:textSize="48px"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="15px"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/goToProfile"
+            android:layout_width="120px"
+            android:layout_height="121px"
+            android:background="@drawable/settings"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="50px"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="700px"
+        android:layout_height="245px"
+        android:background="@drawable/gostin"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"/>
+
+    <ImageButton
+        android:layout_width="700px"
+        android:layout_height="245px"
+        android:background="@drawable/kitchen"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"/>
+
+    <ImageButton
+        android:layout_width="700px"
+        android:layout_height="245px"
+        android:background="@drawable/bath"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"/>
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="800px"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="141px"
+            android:layout_height="141px"
+            android:layout_marginTop="500px"
+            android:layout_marginLeft="800px"
+            android:background="@drawable/add"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

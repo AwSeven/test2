@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="250px"
+        android:background="@color/nig"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_gravity="center"
+            android:background="@drawable/back"
+            android:layout_marginLeft="50px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Добавить комнату"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="70px"
+            android:layout_marginLeft="70px"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="900px"
+        android:layout_height="95px"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="  Название комнты"
+        android:textColor="@color/gray"
+        android:textSize="40px"
+        android:background="@drawable/et_style1"
+        android:layout_marginTop="50px"/>
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="900px"
+        android:layout_height="95px"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="  Идентификатор устройств"
+        android:textColor="@color/gray"
+        android:textSize="40px"
+        android:background="@drawable/et_style1"
+        android:layout_marginTop="50px"/>
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="47px"
+        android:text="Выбрать комнату"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="50px"/>
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100px">
+
+        <LinearLayout
+            android:layout_width="1079px"
+            android:layout_height="250px"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="1079px"
+            android:layout_height="250px"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+            <ImageButton
+                android:layout_width="206px"
+                android:layout_height="247px"
+                android:layout_marginLeft="110px"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="418px"
+        android:layout_height="119px"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_style3"
+        android:layout_gravity="center"
+        android:layout_marginTop="400px"/>
+
+</LinearLayout>

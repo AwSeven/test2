@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="1079px"
+        android:layout_height="250px"
+        android:orientation="vertical"
+        android:background="@color/nig">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить адрес"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="80px"
+            android:layout_gravity="center"
+            android:layout_marginTop="75px"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Добавьте адрес своего дома в формате\n г. Название города, ул. Название улицы, д. \n Номер дома"
+        android:textColor="@color/nig"
+        android:layout_marginTop="500px"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="695px"
+        android:layout_height="95px"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:hint="  Адрес"
+        android:textSize="40px"
+        android:background="@drawable/et_style1"
+        android:layout_marginTop="50px"/>
+
+    <Button
+        android:id="@+id/sendDataButton"
+        android:layout_width="418px"
+        android:layout_height="119px"
+        android:layout_gravity="center"
+        android:text="Сохранить"
+        android:background="@drawable/btn_style3"
+        android:textColor="@color/white"
+        android:layout_marginTop="500px"
+        android:onClick="onClickGoToMain"/>
+
+</LinearLayout>
